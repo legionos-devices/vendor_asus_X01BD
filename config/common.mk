@@ -111,6 +111,10 @@ PRODUCT_COPY_FILES += \
     vendor/rebellion/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.pixelexperience.weather.client.xml \
     vendor/rebellion/prebuilt/common/etc/permissions/default-permissions/org.pixelexperience.weather.client.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/org.pixelexperience.weather.client.xml
 
+# Dex preopt
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUIGoogle
+
 # Pixel sysconfig
 PRODUCT_COPY_FILES += \
     vendor/rebellion/prebuilt/common/etc/sysconfig/pixel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel.xml
