@@ -209,9 +209,5 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     WallpaperPicker2
 
-# World APN list
-PRODUCT_PACKAGES += \
-    apns-conf.xml
-
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG ?= false
