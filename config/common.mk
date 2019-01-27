@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
 
 # Custom Rebellion packages
 PRODUCT_PACKAGES += \
+    CustomDoze \
     Terminal \
     LatinIME \
     Lawnchair \
