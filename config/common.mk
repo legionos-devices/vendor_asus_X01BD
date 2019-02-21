@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Terminal \
     LatinIME \
+    Lawnchair \
     LiveWallpapers \
     LiveWallpapersPicker \
     Stk \
@@ -211,3 +212,9 @@ PRODUCT_PACKAGES += \
 
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG ?= false
+
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/rebellion/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml 
+
