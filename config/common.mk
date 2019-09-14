@@ -115,6 +115,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    libjni_latinimegoogle
+
 # Pixel sysconfig
 PRODUCT_COPY_FILES += \
     vendor/rebellion/prebuilt/common/etc/sysconfig/pixel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel.xml
