@@ -209,6 +209,10 @@ PRODUCT_PACKAGES += \
 # ThemeOverlays
 include packages/overlays/Themes/themes.mk
 
+#OmniJaws
+PRODUCT_PACKAGES += \
+    OmniJaws \
+    WeatherIcons
 
 # ThemePicker
 PRODUCT_PACKAGES += \
