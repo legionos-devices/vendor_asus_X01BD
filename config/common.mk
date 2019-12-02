@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUIGoogle
+    SystemUI
 
 # Pixel sysconfig
 PRODUCT_COPY_FILES += \
