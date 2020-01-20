@@ -230,4 +230,6 @@ PRODUCT_PACKAGES += \
 #Telephony
 $(call inherit-product, vendor/rebellion/config/telephony.mk)
 
+# Include Rebellion theme files
+include vendor/rebellion/themes/backgrounds/themes.mk
 
