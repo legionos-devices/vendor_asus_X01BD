@@ -218,6 +218,9 @@ PRODUCT_PACKAGES += \
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG ?= false
 
+# Allow overlays to be excluded from enforcing RRO
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/rebellion/overlay
+
 # Lawnchair
 PRODUCT_COPY_FILES += \
     vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
