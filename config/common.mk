@@ -69,7 +69,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/rebellion/config/permissions/privapp-permissions-google_prebuilt.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google_prebuilt.xml \
     vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-rebellion.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-rebellion.xml \
-    vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-rebellion-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-rebellion-product.xml
+    vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-rebellion-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-rebellion-product.xml \
+    vendor/rebellion/config/permissions/privapp-permissions-livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-livedisplay.xml
 
 PRODUCT_PACKAGES += \
     privapp-permissions-wellbeing.xml
@@ -104,6 +105,7 @@ PRODUCT_PACKAGES += \
     GBoardPrebuilt \
     PixelThemesStub2019 \
     ExactCalculator \
+    TouchGestures \
     StitchImage
 
 # Weather
