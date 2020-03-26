@@ -97,6 +97,9 @@ PRODUCT_PACKAGES += \
     RetroMusicPlayer \
     Recorder \
     WeatherClient \
+    GalleryGoPrebuilt \
+    GBoardPrebuilt \
+    PixelThemesStub2019 \
     ExactCalculator
 
 # Weather
