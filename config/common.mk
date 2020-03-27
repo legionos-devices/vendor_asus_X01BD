@@ -223,3 +223,11 @@ PRODUCT_COPY_FILES += \
     vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
     vendor/rebellion/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml 
 
+# APN
+PRODUCT_PACKAGES += \
+    apns-conf.xml
+
+#Telephony
+$(call inherit-product, vendor/rebellion/config/telephony.mk)
+
+
