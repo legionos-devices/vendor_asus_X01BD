@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # priv-app permissions
 PRODUCT_COPY_FILES += \
+    vendor/rebellion/config/permissions/privapp-permissions-google_prebuilt.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google_prebuilt.xml \
     vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-rebellion.xml:system/etc/permissions/privapp-permissions-rebellion.xml \
     vendor/rebellion/prebuilt/common/etc/permissions/privapp-permissions-rebellion-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-rebellion-product.xml
 
@@ -95,6 +96,7 @@ PRODUCT_PACKAGES += \
     Stk \
     ViaBrowser \
     RetroMusicPlayer \
+    TurboPrebuilt \
     Recorder \
     WeatherClient \
     GalleryGoPrebuilt \
