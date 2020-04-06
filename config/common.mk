@@ -214,6 +214,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     WeatherIcons
 
+# OmniStyle
+PRODUCT_PACKAGES += \
+    OmniStyle \
+
 # ThemePicker
 PRODUCT_PACKAGES += \
     ThemePicker \
