@@ -28,6 +28,7 @@
 
     <privapp-permissions package="com.android.systemui">
         <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
         <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
         <permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
         <permission name="android.permission.NAVIGATION_EDITOR"/>
