@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
     GalleryGoPrebuilt \
     GBoardPrebuilt \
     PixelThemesStub2019 \
-    ExactCalculator
+    ExactCalculator \
+    StitchImage
 
 # Weather
 PRODUCT_COPY_FILES += \
