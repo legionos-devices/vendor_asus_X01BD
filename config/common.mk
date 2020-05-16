@@ -16,6 +16,8 @@
 
 PRODUCT_BRAND ?= Rebellion-OS
 
+$(call inherit-product-if-exists, external/motorola/faceunlock/config.mk)
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/rebellion/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
